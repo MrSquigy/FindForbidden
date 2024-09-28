@@ -103,20 +103,21 @@ function populatePassivesFieldSet(classData) {
 
     classPassives.forEach(passive => {
         const checkbox = document.createElement("input");
+        let passiveDescription = passive.description;
+        if (passiveDescription.length === 0) {
+            passiveDescription = "Unknown skill description";
+        }
+
         checkbox.type = "checkbox";
         checkbox.id = passive.name;
         checkbox.value = passive.id;
         checkbox.name = passive.name;
-        checkbox.title = passive.description;
-
-        passivesFieldSet.appendChild(checkbox);
+        checkbox.title = passiveDescription;
 
         const passiveLabel = document.createElement("label");
         passiveLabel.htmlFor = passive.name;
         passiveLabel.innerText = passive.name;
-        passiveLabel.title = passive.description;
-        passivesFieldSet.appendChild(passiveLabel);
-        passivesFieldSet.appendChild(document.createElement("br"));
+        passiveLabel.title = passiveDescription;
 
         if (passive.id === undefined) {
             const disabledMessage = "Disabled because the passive skill ID is unknown";
@@ -124,6 +125,10 @@ function populatePassivesFieldSet(classData) {
             checkbox.title = disabledMessage;
             passiveLabel.title = disabledMessage;
         }
+
+        passivesFieldSet.appendChild(checkbox);
+        passivesFieldSet.appendChild(passiveLabel);
+        passivesFieldSet.appendChild(document.createElement("br"));
     });
 }
 

@@ -1,486 +1,1032 @@
 - class: Duelist
   passives:
-  - description: Fatal Flourish
+  - description: 'Non-Travel [[Attack]] [[Skill|Skills]] Repeat an additional Time
+
+      Final Repeat of [[Attack]] [[Skill|Skills]] deals 60% more Damage'
     id: '42469'
     name: Fatal Flourish
-  - description: Bane of Legends
+  - description: '20% more Damage with [[Hit|Hits]] and Ailments against Unique Enemies
+
+      10% more Damage if you''ve Killed [[Recently]]
+
+      Cannot take Reflected [[Physical Damage]]'
     id: '62817'
     name: Bane of Legends
   - description: Brutual Fervour
     name: Brutual Fervour
-  - description: Endless Hunger
+  - description: '20% of Overkill Damage is Leeched as [[Life]]
+
+      You are Unaffected by Bleeding while Leeching
+
+      Cannot be Stunned while Leeching
+
+      20% increased [[Attack Speed]] while Leeching'
     id: '34484'
     name: Endless Hunger
-  - description: Headsman
+  - description: 'Gain 10% increased [[Movement Speed]] for 20 seconds when you [[Kill]]
+      an Enemy
+
+      Gain 10% increased [[Attack Speed]] for 20 seconds when you [[Kill]] a Rare
+      or Unique Enemy
+
+      [[Kill]] Enemies that have 20% or lower [[Life]] when [[Hit]] by your [[Skill|Skills]]'
     id: '3184'
     name: Headsman
-  - description: Impact
+  - description: '5% increased Area of Effect per Enemy killed [[Recently|recently]],
+      up to 50%
+
+      +0.4 metres to Melee Strike Range
+
+      50% increased Global [[Accuracy Rating]]
+
+      Deal up to 15% more Melee Damage to Enemies, based on proximity'
     id: '38180'
     name: Impact
-  - description: Masterful Form
+  - description: 'Your Maximum [[Endurance Charge|Endurance Charges]] is equal to
+      your Maximum [[Frenzy Charge|Frenzy Charges]]
+
+      +1 to Maximum [[Frenzy Charge|Frenzy Charges]]'
     id: '16306'
     name: Masterful Form
-  - description: Overwhelm
+  - description: 'Base [[Critical Strike Chance]] for [[Attack|Attacks]] with Weapons
+      is 8%
+
+      +10% to [[Critical Strike Multiplier]] per [[Nearby]] Enemy, up to +100%
+
+      {{Radius||6.0m}} Enemies have -30% to [[Critical Strike Multiplier]]'
     id: '17315'
     name: Overwhelm
-  - description: Determined Survivor
+  - description: 'Inherent Bonuses from [[Dual Wield|Dual Wielding]] are doubled
+
+      Gain 50% Chance to [[Block]] from Equipped [[Shield]] instead of the [[Shield]]''s
+      value'
     id: '8419'
     name: Determined Survivor
-  - description: Gratuitous Violence
+  - description: 'Bleeding Enemies you [[Kill]] Explode, dealing 20% of
+
+      their Maximum [[Life]] as [[Physical Damage]]'
     id: '27864'
     name: Gratuitous Violence
-  - description: Jagged Technique
+  - description: Bleeding you inflict is Aggravated
     id: '15616'
     name: Jagged Technique
-  - description: Measured Retaliation
+  - description: 'Retaliation [[Skill|Skills]] become Usable for an additional 2 seconds
+
+      50% chance for used Retaliation [[Skill|Skills]] to remain Usable and not consume
+      a Cooldown Use'
     id: '63490'
     name: Measured Retaliation
-  - description: More Than Skill
+  - description: Chance to [[Block]] [[Attack]] or [[Spell Damage]] is [[Lucky]] if
+      you've Blocked [[Recently]]
     id: '2598'
     name: More Than Skill
-  - description: War of Attrition
+  - description: Deal 1% more Damage with [[Hit|Hits]] and Ailments to Rare and Unique
+      Enemies for each second they've ever been [[In your presence|in your Presence]],
+      up to a maximum of 100%
     id: '758'
     name: War of Attrition
-  - description: Weapon Master
+  - description: '20% more Area of Effect while wielding a [[Mace]] or Sceptre
+
+      30% more Damage with [[Hit|Hits]] and Ailments against Enemies that are on [[Low
+      Life]] while you are wielding an [[Axe]]
+
+      25% more [[Accuracy Rating]] while wielding a [[Sword]]
+
+      20% of [[Leech]] is Instant while wielding a [[Claw]]
+
+      20% more [[Critical Strike Chance]] while wielding a [[Dagger]]'
     id: '52575'
     name: Weapon Master
-  - description: Conqueror
+  - description: '100% chance to Taunt on [[Hit]]
+
+      10% reduced Damage taken if you''ve Taunted an Enemy [[Recently]]
+
+      Enemies Taunted by you deal 20% less Damage with [[Hit|Hits]] and
+
+      Ailments against other targets'
     id: '35750'
     name: Conqueror
-  - description: First to Strike, Last to Fall
+  - description: 'Your [[Hit|Hits]] permanently Intimidate Enemies that are on [[Full
+      Life]]
+
+      Gain [[Adrenaline]] for 20 seconds when you reach [[Low Life]]
+
+      Remove all Ailments and Burning when you gain [[Adrenaline]]
+
+      Recover 25% of [[Life]] when you gain [[Adrenaline]]'
     id: '27604'
     name: First to Strike, Last to Fall
-  - description: Fortitude
+  - description: You have 15 Fortification
     id: '31700'
     name: Fortitude
-  - description: Inspirational
+  - description: '30% increased effect of Non-Curse Auras from your [[Skill|Skills]]
+
+      When you leave your Banner''s Area, recover 30% of the Valour consumed for that
+      Banner
+
+      You and Allies near your Banner Regenerate 0.1% of [[Life]] per second for each
+      Valour consumed for that Banner'
     id: '11412'
     name: Inspirational
-  - description: Master of Metal
+  - description: 'Impales you inflict last 1 additional [[Hit]]
+
+      If you''ve Impaled an Enemy [[Recently]], you
+
+      and [[Nearby|nearby]] Allies have +1000 to [[Armour]]
+
+      You and {{Radius|nearby|6.0m}} Allies deal 6 to 12 added [[Physical Damage]]
+      for
+
+      each Impale on Enemy'
     id: '13374'
     name: Master of Metal
-  - description: Unstoppable Hero
+  - description: '[[Nearby]] Allies count as having Fortification equal to yours'
     id: '33940'
     name: Unstoppable Hero
-  - description: Worthy Foe
+  - description: 'Enemies Taunted by you take 20% increased Damage
+
+      Enemies Taunted by you cannot Evade [[Attack|Attacks]]'
     id: '56967'
     name: Worthy Foe
 - class: Shadow
   passives:
-  - description: Harness the Void
+  - description: '27% chance to gain 25% of Non-Chaos Damage with [[Hit|Hits]] as
+      Extra [[Chaos Damage]]
+
+      13% chance to gain 50% of Non-Chaos Damage with [[Hit|Hits]] as Extra [[Chaos
+      Damage]]
+
+      7% chance to gain 100% of Non-Chaos Damage with [[Hit|Hits]] as Extra [[Chaos
+      Damage]]'
     id: '57331'
     name: Harness the Void
-  - description: Ambush and Assassinate
+  - description: '+40% to [[Critical Strike Multiplier]] against Enemies that are
+      on [[Full Life]]
+
+      100% more [[Critical Strike Chance]] against Enemies that are on [[Full Life]]
+
+      [[Critical strike|Critical Strikes]] have Culling Strike
+
+      15% more Damage with [[Hit|Hits]] and Ailments against Enemies that are on [[Low
+      Life]]
+
+      100% more [[Critical Strike Chance]] against Enemies that are on [[Low Life]]'
     id: '21264'
     name: Ambush and Assassinate
-  - description: Deadly Infusion
+  - description: '+5% to [[Critical Strike Multiplier]] per [[Power Charge]]
+
+      +1.5% [[Critical Strike Chance]] while at maximum [[Power Charge|Power Charges]]'
     id: '48239'
     name: Deadly Infusion
-  - description: Mistwalker
+  - description: '50% increased Elusive Effect
+
+      You take no Extra Damage from [[Critical strike|Critical Strikes]] while Elusive
+
+      Gain Elusive on [[Critical Strike]]'
     id: '28782'
     name: Mistwalker
-  - description: Noxious Strike
+  - description: '5% increased [[Poison]] Duration for each [[Poison]] you have inflicted
+      [[Recently]], up to a maximum of 100%
+
+      Recover 0.5% of [[Life]] per [[Poison]] affecting Enemies you [[Kill]]
+
+      40% chance to [[Poison]] on [[Hit]]'
     id: '1945'
     name: Noxious Strike
-  - description: Opportunistic
+  - description: 'Damage from your [[Critical strike|Critical Strikes]] cannot be
+      Reflected
+
+      20% reduced Damage taken while there are at least two Rare or Unique Enemies
+      [[Nearby|nearby]]
+
+      25% more Damage while there is at most one Rare or Unique Enemy [[Nearby|nearby]]'
     id: '19083'
     name: Opportunistic
-  - description: Toxic Delivery
+  - description: '[[Poison]] you inflict with [[Critical strike|Critical Strikes]]
+      deals 25% more Damage
+
+      +0.5% to [[Critical Strike Chance]] per [[Poison]] affecting Enemy, up to +2.0%'
     id: '19598'
     name: Toxic Delivery
-  - description: Bomb Specialist
+  - description: '[[Hit|Hits]] have 20% chance to deal 50% more Area Damage
+
+      20% chance to take 50% less Area Damage from [[Hit|Hits]]'
     id: '47778'
     name: Bomb Specialist
-  - description: Born in the Shadows
+  - description: 'Cannot be Blinded
+
+      Blind Enemies on [[Hit]]
+
+      15% reduced Damage taken from Blinded Enemies
+
+      [[Nearby]] Enemies are Blinded'
     id: '5087'
     name: Born in the Shadows
-  - description: Chain Reaction
+  - description: 'When your [[Trap|Traps]] Trigger, your [[Nearby|nearby]] [[Trap|Traps]]
+      also Trigger
+
+      [[Skill|Skills]] used by [[Trap|Traps]] have 50% increased Area of Effect'
     id: '38918'
     name: Chain Reaction
-  - description: Demolitions Specialist
+  - description: '150% increased Effect of Auras from [[Mine|Mines]]
+
+      [[Mine|Mines]] Hinder Enemies near them for 2 seconds when they Land'
     id: '39834'
     name: Demolitions Specialist
-  - description: Explosives Expert
+  - description: 'Damage Penetrates 10% [[Elemental Resistance|Elemental Resistances]]
+      against [[Chill|Chilled]] Enemies
+
+      +40% to [[Critical Strike Multiplier]] against Burning Enemies
+
+      80% increased [[Critical Strike Chance]] against [[Shock|Shocked]] Enemies'
     id: '14103'
     name: Explosives Expert
-  - description: Like Clockwork
+  - description: '30% increased Cooldown Recovery Rate
+
+      {{Radius||6.0m}} Enemies have 10% reduced Cooldown Recovery Rate'
     id: '51462'
     name: Like Clockwork
-  - description: Perfect Crime
+  - description: '35% less Damage with Triggered [[Spell|Spells]]
+
+      Triggers [[Level]] 20 Summon Triggerbots when Allocated'
     id: '28535'
     name: Perfect Crime
-  - description: Pyromaniac
+  - description: 'Regenerate 2% of [[Life]] per Second for each [[Trap]] Triggered
+      [[Recently]], up to 10% per second
+
+      Regenerate 2% of [[Life]] per second for each [[Mine]] Detonated [[Recently]],
+      up to 10% per second
+
+      Immune to [[Ignite]] and [[Shock]]'
     id: '16940'
     name: Pyromaniac
-  - description: Escape Artist
+  - description: '+5 to [[Evasion Rating]] per 1 Maximum [[Energy Shield]] on Equipped
+      Helmet
+
+      +1 to maximum [[Energy Shield]] per 6 [[Evasion Rating]] on Equipped [[Body
+      Armour]]'
     id: '29825'
     name: Escape Artist
-  - description: Heartstopper
+  - description: 'Every 10 seconds:
+
+      Take 40% less Damage from [[Hit|Hits]] for 5 seconds
+
+      Take 40% less Damage over Time for 5 seconds'
     id: '28884'
     name: Heartstopper
-  - description: One Step Ahead
+  - description: 'Your Action Speed is at least 108% of base value
+
+      {{Radius||6.0m}} Enemy Monsters'' Action Speed is at most 92% of base value'
     id: '23225'
     name: One Step Ahead
-  - description: Polymath
+  - description: '3% more Damage for each different type of Mastery you have Allocated
+
+      Recover 1% of [[Life]] on [[Kill]] for each different type of Mastery you have
+      Allocated
+
+      Recover 1% of [[Mana]] on [[Kill]] for each different type of Mastery you have
+      Allocated
+
+      Recover 1% of [[Energy Shield]] on [[Kill]] for each different type of Mastery
+      you have Allocated'
     id: '55867'
     name: Polymath
-  - description: Soul Drinker
+  - description: '[[Energy Shield]] [[Leech]] effects are not removed when [[Energy
+      Shield]] is Filled
+
+      2% of Damage Leeched as [[Energy Shield]]
+
+      20% increased [[Attack]] and [[Cast Speed]] while Leeching [[Energy Shield]]'
     id: '48999'
     name: Soul Drinker
-  - description: Spellbreaker
+  - description: '+20% chance to Suppress [[Spell Damage]]
+
+      Prevent +10% of Suppressed [[Spell Damage]] while on Full [[Energy Shield]]
+
+      50% chance for [[Energy Shield]] Recharge to start when you Suppress [[Spell
+      Damage]]'
     id: '41891'
     name: Spellbreaker
-  - description: Swift Killer
+  - description: '+2 to Maximum [[Frenzy Charge|Frenzy Charges]]
+
+      200% increased [[Charge]] Duration'
     id: '32947'
     name: Swift Killer
 - class: Marauder
   passives:
-  - description: Indomitable Resolve
+  - description: 'Take 25% less Damage
+
+      Deal 10% less Damage'
     id: '52435'
     name: Indomitable Resolve
-  - description: Unbreakable
+  - description: '[[Armour]] from Equipped [[Body Armour]] is doubled
+
+      15% of [[Armour]] also applies to [[Chaos Damage]] taken from [[Hit|Hits]]'
     id: '53816'
     name: Unbreakable
-  - description: Undeniable
+  - description: '+500 to [[Accuracy Rating]]
+
+      1% increased [[Attack Speed]] per 150 [[Accuracy Rating]]
+
+      Gain [[Accuracy Rating]] equal to twice your [[Strength]]'
     id: '44297'
     name: Undeniable
-  - description: Unflinching
+  - description: '30% chance to gain an [[Endurance Charge]] when you are [[Hit]]
+
+      +1 to Maximum [[Endurance Charge|Endurance Charges]]
+
+      25% chance that if you would gain [[Endurance Charge|Endurance Charges]], you
+      instead gain up to maximum [[Endurance Charge|Endurance Charges]]
+
+      Gain 1 [[Endurance Charge]] every second if you''ve been [[Hit]] [[Recently]]'
     id: '1734'
     name: Unflinching
-  - description: Unrelenting
+  - description: '1% additional [[Physical Damage]] Reduction per [[Endurance Charge]]
+
+      1% additional [[Elemental Damage]] Reduction per [[Endurance Charge]]'
     id: '56789'
     name: Unrelenting
-  - description: Unstoppable
+  - description: 'Action Speed cannot be modified to below Base Value
+
+      [[Movement Speed]] cannot be modified to below Base Value
+
+      10% increased [[Movement Speed]]
+
+      Cannot be Stunned'
     id: '5819'
     name: Unstoppable
-  - description: Untiring
+  - description: '1.5% of [[Physical Damage]] prevented from [[Hit|Hits]] in the past
+
+      10 seconds is Regenerated as [[Life]] per second
+
+      40% increased [[Life]] Regeneration rate'
     id: '17988'
     name: Untiring
-  - description: Unyielding
+  - description: '8% increased Damage per [[Endurance Charge]]
+
+      25% chance to gain an [[Endurance Charge]] when you Stun an Enemy
+
+      10% increased Stun Duration on Enemies per [[Endurance Charge]]
+
+      6% increased Area of Effect per [[Endurance Charge]]'
     id: '62595'
     name: Unyielding
-  - description: Aspect of Carnage
+  - description: '10% increased Damage taken
+
+      40% more Damage'
     id: '59920'
     name: Aspect of Carnage
-  - description: Blitz
+  - description: 'Gain a Blitz [[Charge]] on [[Critical Strike]]
+
+      2% more [[Attack Speed]] per Blitz [[Charge]]
+
+      8% reduced [[Critical Strike Chance]] per Blitz [[Charge]]
+
+      +20 to Maximum Blitz [[Charge|Charges]]'
     id: '29630'
     name: Blitz
-  - description: Crave the Slaughter
+  - description: 'Inherent Rage Loss starts 2 seconds later
+
+      Every Rage also grants 1% increased [[Attack Speed]]'
     id: '24528'
     name: Crave the Slaughter
-  - description: Defy Pain
+  - description: 'Gain Defiance for 10 seconds on losing [[Life]] to an Enemy [[Hit]],
+      no more than once every 0.3 seconds
+
+      25% increased [[Armour]] per Defiance
+
+      50% increased Maximum total [[Life]] Recovery per second from [[Leech]] while
+      you have Defiance
+
+      At 10 Defiance, take Reflected [[Physical Damage]] equal to maximum [[Life]],
+      then lose all Defiance'
     id: '9271'
     name: Defy Pain
-  - description: Flawless Savagery
+  - description: '50% increased [[Critical Strike Chance]]
+
+      +25% to [[Critical Strike Multiplier]]
+
+      Adds 20 to 30 [[Physical Damage]] if you''ve dealt a [[Critical Strike]] [[Recently]]'
     id: '38999'
     name: Flawless Savagery
-  - description: Rite of Ruin
+  - description: '50% increased Rage Effect
+
+      Lose 0.1% of [[Life]] per second per Rage while you are not losing Rage'
     id: '57560'
     name: Rite of Ruin
-  - description: War Bringer
+  - description: Warcries Exert twice as many [[Attack|Attacks]]
     id: '32251'
     name: War Bringer
-  - description: Hinekora, Death's Fury
+  - description: Enemies you or your [[Totem|Totems]] [[Kill]] have 5% chance to Explode,
+      dealing 500% of their maximum [[Life]] as [[Fire Damage]]
     id: '1731'
     name: Hinekora, Death's Fury
-  - description: Ngamahu, Flame's Advance
+  - description: 'Non-Unique Jewels cause Increases and Reductions to other Damage
+      Types in a Large Radius to be Transformed to apply to [[Fire Damage]]
+
+      Non-Unique Jewels cause Small and Notable [[Passive skill|Passive Skills]] in
+      a Large Radius to
+
+      also grant +3 to [[Strength]]'
     id: '50692'
     name: Ngamahu, Flame's Advance
-  - description: Ramako, Sun's Light
+  - description: '[[Nearby]] Enemy Monsters'' [[Fire Resistance]] against
+
+      Damage over Time is -20% while you are [[Stationary]]'
     id: '61355'
     name: Ramako, Sun's Light
-  - description: Sione, Sun's Roar
+  - description: 'Warcries have infinite Power
+
+      30% increased Warcry Buff Effect'
     id: '31667'
     name: Sione, Sun's Roar
-  - description: Tasalio, Cleansing Water
+  - description: 'Modifiers to [[Fire Resistance]] also apply to Cold and [[Lightning
+      Resistance|Lightning Resistances]] at 50% of their Value
+
+      Unaffected by [[Ignite]]'
     id: '48480'
     name: Tasalio, Cleansing Water
-  - description: Tawhoa, Forest's Strength
+  - description: 'Trigger [[Level]] 20 Tawhoa''s Chosen when you [[Attack]] with
+
+      a Non-Vaal Slam or Strike [[Skill]] near an Enemy'
     id: '5029'
     name: Tawhoa, Forest's Strength
-  - description: Tukohama, War's Herald
+  - description: '[[Skill|Skills]] from Equipped [[Body Armour]] are Supported by
+      [[Level]] 30 Ancestral Call
+
+      [[Skill|Skills]] from Equipped [[Body Armour]] are Supported by [[Level]] 20
+      Fist of War'
     id: '53095'
     name: Tukohama, War's Herald
-  - description: Valako, Storm's Embrace
+  - description: Modifiers to Maximum [[Fire Resistance]] also apply to Maximum Cold
+      and [[Lightning Resistance|Lightning Resistances]]
     id: '32249'
     name: Valako, Storm's Embrace
 - class: Witch
   passives:
-  - description: Nine Lives
+  - description: '25% of Damage Taken Recouped as [[Life]], [[Mana]] and [[Energy
+      Shield]]
+
+      Recoup Effects instead occur over 3 seconds'
     id: '27602'
     name: Nine Lives
-  - description: Bone Barrier
+  - description: '1% additional [[Physical Damage]] Reduction per [[Minion]], up to
+      10%
+
+      1% of Damage Dealt by your [[Minion|Minions]] is Leeched to you as [[Life]]
+
+      [[Minion|Minions]] gain 40% of Maximum [[Life]] as Extra Maximum [[Energy Shield]]'
     id: '14603'
     name: Bone Barrier
-  - description: Commander of Darkness
+  - description: 'Auras from your [[Skill|Skills]] grant 3% increased [[Attack]] and
+      Cast
+
+      Speed to you and Allies
+
+      You and [[Nearby|nearby]] Allies have +30% to [[Elemental Resistance|Elemental
+      Resistances]]
+
+      You and [[Nearby|nearby]] Allies deal 30% increased Damage'
     id: '36017'
     name: Commander of Darkness
-  - description: Corpse Pact
+  - description: 'Enemies near corpses you Spawned [[Recently]] are [[Chill|Chilled]]
+      and [[Shock|Shocked]]
+
+      2% increased [[Attack]] and [[Cast Speed]] for each corpse Consumed [[Recently]],
+      up to a maximum of 200%'
     id: '23572'
     name: Corpse Pact
-  - description: Essence Glutton
+  - description: 'Regenerate 4% of [[Mana]] over 2 seconds when you Consume a corpse
+
+      Regenerate 8% of [[Energy Shield]] over 2 seconds when you Consume a corpse
+
+      For each [[Nearby|nearby]] corpse, you and [[Nearby|nearby]] Allies Regenerate
+      5 [[Mana]]
+
+      per second, up to 50 per second
+
+      For each [[Nearby|nearby]] corpse, you and [[Nearby|nearby]] Allies Regenerate
+      0.2% of [[Energy Shield]] per second, up to 2.0% per second'
     id: '3554'
     name: Essence Glutton
-  - description: Mindless Aggression
+  - description: '[[Minion|Minions]] have 20% more Maximum [[Life]]
+
+      [[Minion|Minions]] deal 10% more Damage'
     id: '54159'
     name: Mindless Aggression
-  - description: Mistress of Sacrifice
+  - description: '40% increased [[Skill]] Effect Duration
+
+      Your Offering [[Skill|Skills]] also affect you
+
+      Your Offerings have 50% reduced Effect on you'
     id: '48719'
     name: Mistress of Sacrifice
-  - description: Plaguebringer
+  - description: 'With at least one [[Nearby|nearby]] corpse, [[Nearby|nearby]] Enemies
+      deal 10% reduced Damage
+
+      With at least one [[Nearby|nearby]] corpse, you and [[Nearby|nearby]] Allies
+      deal 10% more Damage
+
+      If you''ve Consumed a corpse [[Recently]], you and your [[Minion|Minions]] have
+      30% increased Area of Effect'
     id: '11490'
     name: Plaguebringer
-  - description: Unnatural Strength
+  - description: '[[Minion|Minions]] have Unholy Might'
     id: '65153'
     name: Unnatural Strength
-  - description: Bastion of Elements
+  - description: 'Triggers [[Level]] 20 Primal Aegis when Allocated
+
+      Primal Aegis can take 75 [[Elemental Damage]] per Allocated Notable [[Passive
+      skill|Passive Skill]]
+
+      Other Aegis [[Skill|Skills]] are Disabled
+
+      Cannot take Reflected [[Elemental Damage]]'
     id: '4917'
     name: Bastion of Elements
-  - description: Elemancer
+  - description: '+1 to maximum number of Summoned Golems
+
+      Summoned Golems are Immune to [[Elemental Damage]]
+
+      25% increased Effect of Buffs granted by your Golems per Summoned Golem'
     id: '258'
     name: Elemancer
-  - description: Heart of Destruction
+  - description: 'Gain Convergence when you [[Hit]] a Unique Enemy, no more than once
+      every 8 seconds
+
+      60% increased Area of Effect while you don''t have Convergence'
     id: '57197'
     name: Heart of Destruction
-  - description: Liege of the Primordial
+  - description: 'Summoned Golems are Resummoned 4 seconds after being Killed
+
+      +1 to maximum number of Summoned Golems
+
+      100% increased Effect of Buffs granted by your Golems'
     id: '56461'
     name: Liege of the Primordial
-  - description: Mastermind of Discord
+  - description: 'Exposure you inflict applies an extra -25% to the affected Resistance
+
+      Regenerate 1% of [[Mana]] per second if you''ve inflicted Exposure [[Recently]]'
     id: '61259'
     name: Mastermind of Discord
-  - description: Shaper of Flames
+  - description: 'All Damage can [[Ignite]]
+
+      [[Hit|Hits]] always [[Ignite]]
+
+      25% more Damage with [[Ignite|Ignites]] you inflict with [[Hit|Hits]] for which
+      the highest Damage Type is Fire'
     id: '53123'
     name: Shaper of Flames
-  - description: Shaper of Storms
+  - description: '[[Hit|Hits]] always [[Shock]]
+
+      All Damage can [[Shock]]
+
+      25% more Effect of Lightning Ailments you inflict with [[Hit|Hits]] if the highest
+      Damage Type is Lightning
+
+      [[Shock|Shocks]] from your [[Hit|Hits]] always increase Damage taken by at least
+      15%'
     id: '27038'
     name: Shaper of Storms
-  - description: Shaper of Winter
+  - description: 'All Damage with [[Hit|Hits]] can [[Chill]]
+
+      50% more Effect of Cold Ailments you inflict with [[Hit|Hits]] for which the
+      highest Damage Type is Cold
+
+      [[Chill|Chills]] from your [[Hit|Hits]] always reduce Action Speed by at least
+      15%
+
+      Your [[Chill|Chills]] can reduce Action Speed by up to a maximum of 40%'
     id: '40810'
     name: Shaper of Winter
-  - description: Forbidden Power
+  - description: '+1 to Maximum [[Power Charge|Power Charges]]
+
+      6% increased Area of Effect per [[Power Charge]]
+
+      6% increased Damage per [[Power Charge]]
+
+      Gain a [[Power Charge]] after Spending a total of 200 [[Mana]]'
     id: '62504'
     name: Forbidden Power
-  - description: Frigid Wake
+  - description: '15% more [[Cold Damage]]
+
+      Cannot be [[Chill|Chilled]]
+
+      Cannot be [[Freeze|Frozen]]
+
+      Every 4 seconds, 50% chance to [[Freeze]] [[Nearby|nearby]] Non-Frozen Enemies
+      for 0.4 seconds
+
+      {{Radius||6.0m}} [[Chill|Chilled]] Enemies deal 10% reduced Damage with [[Hit|Hits]]'
     id: '47630'
     name: Frigid Wake
-  - description: Profane Bloom
+  - description: Cursed Enemies you or your [[Minion|Minions]] [[Kill]] have a 50%
+      chance to Explode, dealing a quarter of their maximum [[Life]] as [[Chaos Damage]]
     id: '37127'
     name: Profane Bloom
-  - description: Unholy Authority
+  - description: 'You can apply an additional [[Curse]]
+
+      Your Hexes can affect Hexproof Enemies'
     id: '31344'
     name: Unholy Authority
-  - description: Vile Bastion
+  - description: 'Regenerate 2% of [[Energy Shield]] per second for each
+
+      Enemy you or your [[Minion|Minions]] have Killed [[Recently]], up to 10% per
+      second
+
+      Cannot Be Stunned while you have [[Energy Shield]]
+
+      Regenerate 40 [[Energy Shield]] per second'
     id: '37492'
     name: Vile Bastion
-  - description: Void Beacon
+  - description: '{{Radius||6.0m}} Enemies have -20% to [[Chaos Resistance]]
+
+      {{Radius||6.0m}} Enemies have 100% reduced [[Life]] Regeneration rate
+
+      {{Radius||6.0m}} Enemies have -20% to [[Cold Resistance]]'
     id: '27096'
     name: Void Beacon
   - description: Withering Prescence
     name: Withering Prescence
 - class: Ranger
   passives:
-  - description: Fury of Nature
+  - description: 'Non-Damaging Elemental Ailments you inflict spread to other enemies
+      within 2 metres
+
+      Non-Damaging Elemental Ailments you inflict have 100% more Effect'
     id: '18054'
     name: Fury of Nature
-  - description: Avidity
+  - description: '+1 to Maximum [[Frenzy Charge|Frenzy Charges]]
+
+      Gain a [[Frenzy Charge]] each second while Moving
+
+      5% more [[Accuracy Rating]] per [[Frenzy Charge]]'
     id: '44482'
     name: Avidity
-  - description: Endless Munitions
+  - description: '[[Skill|Skills]] fire 2 additional Projectiles'
     id: '26067'
     name: Endless Munitions
-  - description: Far Shot
+  - description: 'Projectiles gain Damage as they travel farther, dealing up
+
+      to 30% more Damage with [[Hit|Hits]] and Ailments
+
+      Projectile Barrages have no spread'
     id: '45313'
     name: Far Shot
-  - description: Focal Point
+  - description: '75% increased Effect of your Marks
+
+      25% less Damage taken from other Enemies near your Marked Enemy
+
+      Your Mark Transfers to another Enemy when Marked Enemy dies'
     id: '5443'
     name: Focal Point
-  - description: Gathering Winds
+  - description: 'Gain 1 [[Gale Force]] when you use a [[Skill]]
+
+      10% increased Effect of [[Tailwind]] on you per [[Gale Force]]
+
+      You and {{Radius|nearby|6.0m}} Allies have [[Tailwind]]'
     id: '24848'
     name: Gathering Winds
-  - description: Occupying Force
+  - description: 'Mirage Archers are not attached to you
+
+      +2 to maximum number of Summoned Mirage Archers
+
+      Cannot Summon Mirage Archers while near your Mirage Archers'
     id: '2872'
     name: Occupying Force
-  - description: Ricochet
+  - description: '[[Skill|Skills]] Chain +1 times
+
+      Projectiles have 30% chance to be able to Chain when colliding with terrain'
     id: '61627'
     name: Ricochet
-  - description: Wind Ward
+  - description: '4% less Damage taken per [[Gale Force]]
+
+      Lose all [[Gale Force]] when [[Hit]]'
     id: '23169'
     name: Wind Ward
-  - description: Avatar of the Wilds
+  - description: 'Grants [[Level]] 20 Unbound Avatar [[Skill]]
+
+      Your [[Hit|Hits]] always inflict [[Freeze]], [[Shock]] and [[Ignite]] while
+      Unbound
+
+      Gain 1 Unbound Fury when you inflict an Elemental Ailment with a [[Hit]] on
+      an Enemy, no more than once every 0.2 seconds for each type of Ailment
+
+      Cannot gain Unbound Fury while Unbound
+
+      80% more [[Elemental Damage]] while Unbound'
     id: '55509'
     name: Avatar of the Wilds
-  - description: Enduring Suffusion
+  - description: 'Tincture Effects Linger on you for 0.5 seconds per [[Mana]] Burn
+      on you when the Tincture was deactivated, up to a maximum of 6 seconds
+
+      Tinctures applied to you have 30% less [[Mana]] Burn rate'
     id: '40104'
     name: Enduring Suffusion
-  - description: Experienced Herbalist
+  - description: You can have an additional Tincture active
     id: '29662'
     name: Experienced Herbalist
-  - description: Lesson of the Seasons
+  - description: '10% reduced Duration of Damaging Ailments on you per Bark
+
+      10% chance to Avoid non-Damaging Ailments on you per Bark below maximum'
     id: '34814'
     name: Lesson of the Seasons
-  - description: Mother's Teachings
+  - description: Grants [[Level]] 20 Barkskin [[Skill]]
     id: '4849'
     name: Mother's Teachings
-  - description: Oath of Spring
+  - description: 'Maximum Effect of [[Shock]] is 2% increased Damage taken
+
+      You can apply up to 50 [[Shock|Shocks]] to each Enemy'
     id: '31364'
     name: Oath of Spring
-  - description: Oath of Summer
+  - description: '[[Hit|Hits]] that would [[Ignite]] instead Scorch
+
+      You can inflict an additional Scorch on each Enemy'
     id: '33645'
     name: Oath of Summer
-  - description: Oath of Winter
+  - description: 'Enemies you [[Freeze]] remain [[Freeze|Frozen]] for at least 2 seconds
+
+      [[Hit|Hits]] that fail to [[Freeze]] due to insufficient [[Freeze]] Duration
+      inflict Hoarfrost'
     id: '16848'
     name: Oath of Winter
-  - description: Seasoned Hunter
+  - description: Tincture Effects also apply to Ranged Weapons
     id: '36958'
     name: Seasoned Hunter
-  - description: Master Alchemist
+  - description: '50% chance for [[Flask|Flasks]] you use to not consume [[Charge|Charges]]
+
+      Removes Elemental Ailments when you use a [[Flask]]'
     id: '61805'
     name: Master Alchemist
-  - description: Master Distiller
+  - description: 'Grant bonuses to Non-Channelling [[Skill|Skills]] you use by consuming
+      3 [[Charge|Charges]] from a [[Flask]] of
+
+      each of the following types, if possible:
+
+      If Bismuth [[Flask]] [[Charge|Charges]] are consumed, Penetrate 20% [[Elemental
+      Resistance|Elemental Resistances]]
+
+      If Diamond [[Flask]] [[Charge|Charges]] are consumed, 150% increased [[Critical
+      Strike Chance]]
+
+      If Amethyst [[Flask]] [[Charge|Charges]] are consumed, 25% of [[Physical Damage]]
+      as Extra [[Chaos Damage]]'
     id: '6038'
     name: Master Distiller
-  - description: Master Surgeon
+  - description: '[[Life]] [[Flask]] Effects are not removed when Unreserved [[Life]]
+      is Filled
+
+      Life [[Flask]] Effects do not Queue
+
+      50% less [[Life]] Recovery from [[Flask|Flasks]]'
     id: '63293'
     name: Master Surgeon
-  - description: Master Toxicist
+  - description: '[[Poison|Poisons]] you inflict during any [[Flask]] Effect have
+      20% chance to deal 100% more Damage
+
+      When you [[Kill|kill]] a [[Poison|Poisoned]] Enemy during any [[Flask]] Effect,
+      [[Nearby|nearby]] Enemies are [[Poison|Poisoned]]'
     id: '1697'
     name: Master Toxicist
-  - description: Nature's Adrenaline
+  - description: '[[Flask|Flasks]] gain 3 [[Charge|Charges]] every 3 seconds'
     id: '51101'
     name: Nature's Adrenaline
-  - description: Nature's Boon
+  - description: Magic Utility [[Flask|Flasks]] applied to you have 30% increased
+      Effect
     id: '65296'
     name: Nature's Boon
-  - description: Nature's Reprisal
+  - description: '50% increased Effect of Withered
+
+      25% chance to inflict Withered for 2 seconds on [[Hit]]'
     id: '40813'
     name: Nature's Reprisal
 - class: Templar
   passives:
-  - description: Searing Purity
+  - description: '45% of [[Chaos Damage]] taken as [[Lightning Damage]]
+
+      45% of [[Chaos Damage]] taken as [[Fire Damage]]'
     id: '57568'
     name: Searing Purity
-  - description: Augury of Penitence
+  - description: '{{Radius||6.0m}} Enemies take 16% increased [[Elemental Damage]]
+
+      {{Radius||6.0m}} Enemies deal 8% less [[Elemental Damage]]'
     id: '40059'
     name: Augury of Penitence
-  - description: Inevitable Judgement
+  - description: '[[Critical strike|Critical Strikes]] ignore Enemy Monster [[Elemental
+      Resistance|Elemental Resistances]]
+
+      Non-Critical Strikes Penetrate 10% of Enemy [[Elemental Resistance|Elemental
+      Resistances]]'
     id: '48214'
     name: Inevitable Judgement
-  - description: Instruments of Virtue
+  - description: '10% more [[Attack Damage]] for each Non-Instant [[Spell]] you''ve
+      Cast in the past 8 seconds, up to a maximum of 30%
+
+      Battlemage'
     id: '19417'
     name: Instruments of Virtue
-  - description: Instruments of Zeal
+  - description: '+4 to Maximum Fanatic [[Charge|Charges]]
+
+      Gain 1 Fanatic [[Charge]] every second if you''ve Attacked in the past second
+
+      Gain Fanaticism for 4 seconds on reaching Maximum Fanatic [[Charge|Charges]]
+
+      Lose all Fanatic [[Charge|Charges]] on reaching Maximum Fanatic [[Charge|Charges]]'
     id: '13851'
     name: Instruments of Zeal
-  - description: Pious Path
+  - description: 'Effects of Consecrated Ground you create Linger for 4 seconds
+
+      Consecrated Ground you create causes [[Life]] Regeneration to
+
+      also Recover [[Energy Shield]] for you and Allies'
     id: '32816'
     name: Pious Path
-  - description: Righteous Providence
+  - description: '+50 to [[Strength]] and [[Intelligence]]
+
+      1% increased [[Critical Strike Chance]] per point of [[Strength]] or [[Intelligence]],
+      whichever is lower'
     id: '53884'
     name: Righteous Providence
-  - description: Sanctuary
+  - description: 'You have Consecrated Ground around you while [[Stationary|stationary]]
+
+      Consecrated Ground you create applies 15% increased Damage taken to Enemies'
     id: '39790'
     name: Sanctuary
-  - description: Arcane Blessing
+  - description: 'Gain Arcane Surge when you or your [[Totem|Totems]] [[Hit]] an Enemy
+      with a [[Spell]]
+
+      Arcane Surge grants 20% more [[Spell Damage]] to you'
     id: '40510'
     name: Arcane Blessing
-  - description: Conviction of Power
+  - description: '+1 to Maximum [[Power Charge|Power Charges]] and Maximum [[Endurance
+      Charge|Endurance Charges]]
+
+      +4 to Minimum [[Endurance Charge|Endurance Charges]]
+
+      +4 to Minimum [[Power Charge|Power Charges]]'
     id: '25651'
     name: Conviction of Power
-  - description: Divine Guidance
+  - description: '30% increased maximum [[Mana]]
+
+      10% of Damage is taken from [[Mana]] before [[Life]]
+
+      Transfiguration of Mind'
     id: '922'
     name: Divine Guidance
-  - description: Illuminated Devotion
+  - description: '30% increased Area of Effect while you have Arcane Surge
+
+      0.5% of [[Spell Damage]] Leeched as [[Life]] while you have Arcane Surge
+
+      Non-Damaging Ailments have 50% reduced Effect on you while you have Arcane Surge'
     id: '60462'
     name: Illuminated Devotion
-  - description: Pursuit of Faith
+  - description: '+1 to maximum number of Summoned [[Totem|Totems]]
+
+      100% increased [[Totem]] Duration
+
+      100% increased [[Totem]] Placement speed'
     id: '1105'
     name: Pursuit of Faith
-  - description: Ritual of Awakening
+  - description: 'You and your [[Totem|Totems]] Regenerate 1% of [[Life]] per second
+      for each Summoned [[Totem]]
+
+      Regenerate 0.5% of [[Mana]] per second for each Summoned [[Totem]]
+
+      5% more Damage per Summoned [[Totem]]'
     id: '34434'
     name: Ritual of Awakening
-  - description: Sanctuary of Thought
+  - description: 'Gain 20% of Maximum [[Mana]] as Extra Maximum [[Energy Shield]]
+
+      25% increased [[Mana Reservation]] Efficiency of [[Skill|Skills]]
+
+      50% less [[Mana]] Cost of [[Skill|Skills]]
+
+      1% increased Area of Effect per 50 Unreserved Maximum [[Mana]], up to 100%'
     id: '29026'
     name: Sanctuary of Thought
-  - description: Sign of Purpose
+  - description: 'Brand Recall has 100% increased Cooldown Recovery Rate
+
+      Brands have 100% more Activation Frequency if 75% of Attached Duration expired'
     id: '51492'
     name: Sign of Purpose
-  - description: Bastion of Hope
+  - description: 'If you''ve Attacked [[Recently]], you and [[Nearby|nearby]] Allies
+      have +25% Chance to [[Block]] [[Attack Damage]]
+
+      If you''ve Cast a [[Spell]] [[Recently]], you and [[Nearby|nearby]] Allies have
+      +25% Chance to [[Block]] [[Spell Damage]]'
     id: '39728'
     name: Bastion of Hope
-  - description: Harmony of Purpose
+  - description: 'Enemies in your Link Beams cannot apply Elemental Ailments
+
+      Enemies in your Link Beams have -20% to all [[Elemental Resistance|Elemental
+      Resistances]]
+
+      Linked Targets and Allies in your Link Beams have +5% to all Maximum [[Elemental
+      Resistance|Elemental Resistances]]'
     id: '61372'
     name: Harmony of Purpose
-  - description: Radiant Crusade
+  - description: 'Grants [[Level]] 20 Summon Sentinel of Radiance [[Skill]]
+
+      20% of Damage from [[Hit|Hits]] is taken from your Sentinel of Radiance''s [[Life]]
+      before you'
     id: '4494'
     name: Radiant Crusade
-  - description: Radiant Faith
+  - description: 'Grants maximum [[Energy Shield]] equal to 10% of your Reserved [[Mana]]
+      to
+
+      you and [[Nearby|nearby]] Allies
+
+      Grants [[Armour]] equal to 25% of your Reserved [[Mana]] to you and [[Nearby|nearby]]
+      Allies'
     id: '42264'
     name: Radiant Faith
-  - description: Time of Need
+  - description: 'Every 4 seconds, Regenerate 100% of [[Life]] over one second
+
+      Every 4 seconds, remove [[Curse|Curses]] and Elemental Ailments from you'
     id: '55146'
     name: Time of Need
-  - description: Unwavering Crusade
+  - description: 25% chance to Trigger [[Level]] 20 Summon Elemental Relic when you
+      or a {{Radius|nearby|6.0m}} Ally [[Kill]] an Enemy, or [[Hit]] a Rare or Unique
+      Enemy
     id: '19641'
     name: Unwavering Crusade
-  - description: Unwavering Faith
+  - description: 'Auras from your [[Skill|Skills]] grant 5% increased Recovery Rate
+      of [[Life]],
+
+      Mana and [[Energy Shield]] to you and Allies'
     id: '64768'
     name: Unwavering Faith
 - class: Scion
   passives:
-  - description: Unleashed Potential
+  - description: '+1 to Maximum [[Endurance Charge|Endurance Charges]]
+
+      +1 to Maximum [[Frenzy Charge|Frenzy Charges]]
+
+      +1 to Maximum [[Power Charge|Power Charges]]
+
+      400% increased Endurance, [[Frenzy]] and [[Power Charge]] Duration
+
+      25% chance to gain a [[Charge|Power, Frenzy or Endurance Charge]] on [[Kill]]'
     id: '19355'
     name: Unleashed Potential
-  - description: Berserker
+  - description: ''
     id: '29294'
     name: Berserker
-  - description: Chieftain
+  - description: ''
     id: '24704'
     name: Chieftain
-  - description: Juggernaut
+  - description: ''
     id: '17765'
     name: Juggernaut
-  - description: Guardian
+  - description: ''
     id: '409'
     name: Guardian
-  - description: Hierophant
+  - description: ''
     id: '30940'
     name: Hierophant
-  - description: Inquisitor
+  - description: ''
     id: '61871'
     name: Inquisitor
-  - description: Elementalist
+  - description: ''
     id: '16023'
     name: Elementalist
-  - description: Necromancer
+  - description: ''
     id: '60791'
     name: Necromancer
-  - description: Occultist
+  - description: ''
     id: '18378'
     name: Occultist
-  - description: Assassin
+  - description: ''
     id: '58229'
     name: Assassin
-  - description: Saboteur
+  - description: ''
     id: '18635'
     name: Saboteur
-  - description: Trickster
+  - description: ''
     id: '55236'
     name: Trickster
-  - description: Deadeye
+  - description: ''
     id: '56856'
     name: Deadeye
-  - description: Pathfinder
+  - description: ''
     id: '64111'
     name: Pathfinder
-  - description: Warden
+  - description: ''
     id: '58427'
     name: Warden
-  - description: Champion
+  - description: ''
     id: '24984'
     name: Champion
-  - description: Gladiator
+  - description: ''
     id: '32730'
     name: Gladiator
-  - description: Slayer
+  - description: '[[Life]] [[Leech]] effects are not removed when Unreserved [[Life]]
+      is Filled
+
+      Culling Strike
+
+      30% increased Area of Effect if you''ve Killed [[Recently]]
+
+      Cannot take Reflected [[Physical Damage]]'
     id: '43195'
     name: Slayer
