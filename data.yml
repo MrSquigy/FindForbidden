@@ -1,0 +1,486 @@
+- class: Duelist
+  passives:
+  - description: Fatal Flourish
+    id: '42469'
+    name: Fatal Flourish
+  - description: Bane of Legends
+    id: '62817'
+    name: Bane of Legends
+  - description: Brutual Fervour
+    name: Brutual Fervour
+  - description: Endless Hunger
+    id: '34484'
+    name: Endless Hunger
+  - description: Headsman
+    id: '3184'
+    name: Headsman
+  - description: Impact
+    id: '38180'
+    name: Impact
+  - description: Masterful Form
+    id: '16306'
+    name: Masterful Form
+  - description: Overwhelm
+    id: '17315'
+    name: Overwhelm
+  - description: Determined Survivor
+    id: '8419'
+    name: Determined Survivor
+  - description: Gratuitous Violence
+    id: '27864'
+    name: Gratuitous Violence
+  - description: Jagged Technique
+    id: '15616'
+    name: Jagged Technique
+  - description: Measured Retaliation
+    id: '63490'
+    name: Measured Retaliation
+  - description: More Than Skill
+    id: '2598'
+    name: More Than Skill
+  - description: War of Attrition
+    id: '758'
+    name: War of Attrition
+  - description: Weapon Master
+    id: '52575'
+    name: Weapon Master
+  - description: Conqueror
+    id: '35750'
+    name: Conqueror
+  - description: First to Strike, Last to Fall
+    id: '27604'
+    name: First to Strike, Last to Fall
+  - description: Fortitude
+    id: '31700'
+    name: Fortitude
+  - description: Inspirational
+    id: '11412'
+    name: Inspirational
+  - description: Master of Metal
+    id: '13374'
+    name: Master of Metal
+  - description: Unstoppable Hero
+    id: '33940'
+    name: Unstoppable Hero
+  - description: Worthy Foe
+    id: '56967'
+    name: Worthy Foe
+- class: Shadow
+  passives:
+  - description: Harness the Void
+    id: '57331'
+    name: Harness the Void
+  - description: Ambush and Assassinate
+    id: '21264'
+    name: Ambush and Assassinate
+  - description: Deadly Infusion
+    id: '48239'
+    name: Deadly Infusion
+  - description: Mistwalker
+    id: '28782'
+    name: Mistwalker
+  - description: Noxious Strike
+    id: '1945'
+    name: Noxious Strike
+  - description: Opportunistic
+    id: '19083'
+    name: Opportunistic
+  - description: Toxic Delivery
+    id: '19598'
+    name: Toxic Delivery
+  - description: Bomb Specialist
+    id: '47778'
+    name: Bomb Specialist
+  - description: Born in the Shadows
+    id: '5087'
+    name: Born in the Shadows
+  - description: Chain Reaction
+    id: '38918'
+    name: Chain Reaction
+  - description: Demolitions Specialist
+    id: '39834'
+    name: Demolitions Specialist
+  - description: Explosives Expert
+    id: '14103'
+    name: Explosives Expert
+  - description: Like Clockwork
+    id: '51462'
+    name: Like Clockwork
+  - description: Perfect Crime
+    id: '28535'
+    name: Perfect Crime
+  - description: Pyromaniac
+    id: '16940'
+    name: Pyromaniac
+  - description: Escape Artist
+    id: '29825'
+    name: Escape Artist
+  - description: Heartstopper
+    id: '28884'
+    name: Heartstopper
+  - description: One Step Ahead
+    id: '23225'
+    name: One Step Ahead
+  - description: Polymath
+    id: '55867'
+    name: Polymath
+  - description: Soul Drinker
+    id: '48999'
+    name: Soul Drinker
+  - description: Spellbreaker
+    id: '41891'
+    name: Spellbreaker
+  - description: Swift Killer
+    id: '32947'
+    name: Swift Killer
+- class: Marauder
+  passives:
+  - description: Indomitable Resolve
+    id: '52435'
+    name: Indomitable Resolve
+  - description: Unbreakable
+    id: '53816'
+    name: Unbreakable
+  - description: Undeniable
+    id: '44297'
+    name: Undeniable
+  - description: Unflinching
+    id: '1734'
+    name: Unflinching
+  - description: Unrelenting
+    id: '56789'
+    name: Unrelenting
+  - description: Unstoppable
+    id: '5819'
+    name: Unstoppable
+  - description: Untiring
+    id: '17988'
+    name: Untiring
+  - description: Unyielding
+    id: '62595'
+    name: Unyielding
+  - description: Aspect of Carnage
+    id: '59920'
+    name: Aspect of Carnage
+  - description: Blitz
+    id: '29630'
+    name: Blitz
+  - description: Crave the Slaughter
+    id: '24528'
+    name: Crave the Slaughter
+  - description: Defy Pain
+    id: '9271'
+    name: Defy Pain
+  - description: Flawless Savagery
+    id: '38999'
+    name: Flawless Savagery
+  - description: Rite of Ruin
+    id: '57560'
+    name: Rite of Ruin
+  - description: War Bringer
+    id: '32251'
+    name: War Bringer
+  - description: Hinekora, Death's Fury
+    id: '1731'
+    name: Hinekora, Death's Fury
+  - description: Ngamahu, Flame's Advance
+    id: '50692'
+    name: Ngamahu, Flame's Advance
+  - description: Ramako, Sun's Light
+    id: '61355'
+    name: Ramako, Sun's Light
+  - description: Sione, Sun's Roar
+    id: '31667'
+    name: Sione, Sun's Roar
+  - description: Tasalio, Cleansing Water
+    id: '48480'
+    name: Tasalio, Cleansing Water
+  - description: Tawhoa, Forest's Strength
+    id: '5029'
+    name: Tawhoa, Forest's Strength
+  - description: Tukohama, War's Herald
+    id: '53095'
+    name: Tukohama, War's Herald
+  - description: Valako, Storm's Embrace
+    id: '32249'
+    name: Valako, Storm's Embrace
+- class: Witch
+  passives:
+  - description: Nine Lives
+    id: '27602'
+    name: Nine Lives
+  - description: Bone Barrier
+    id: '14603'
+    name: Bone Barrier
+  - description: Commander of Darkness
+    id: '36017'
+    name: Commander of Darkness
+  - description: Corpse Pact
+    id: '23572'
+    name: Corpse Pact
+  - description: Essence Glutton
+    id: '3554'
+    name: Essence Glutton
+  - description: Mindless Aggression
+    id: '54159'
+    name: Mindless Aggression
+  - description: Mistress of Sacrifice
+    id: '48719'
+    name: Mistress of Sacrifice
+  - description: Plaguebringer
+    id: '11490'
+    name: Plaguebringer
+  - description: Unnatural Strength
+    id: '65153'
+    name: Unnatural Strength
+  - description: Bastion of Elements
+    id: '4917'
+    name: Bastion of Elements
+  - description: Elemancer
+    id: '258'
+    name: Elemancer
+  - description: Heart of Destruction
+    id: '57197'
+    name: Heart of Destruction
+  - description: Liege of the Primordial
+    id: '56461'
+    name: Liege of the Primordial
+  - description: Mastermind of Discord
+    id: '61259'
+    name: Mastermind of Discord
+  - description: Shaper of Flames
+    id: '53123'
+    name: Shaper of Flames
+  - description: Shaper of Storms
+    id: '27038'
+    name: Shaper of Storms
+  - description: Shaper of Winter
+    id: '40810'
+    name: Shaper of Winter
+  - description: Forbidden Power
+    id: '62504'
+    name: Forbidden Power
+  - description: Frigid Wake
+    id: '47630'
+    name: Frigid Wake
+  - description: Profane Bloom
+    id: '37127'
+    name: Profane Bloom
+  - description: Unholy Authority
+    id: '31344'
+    name: Unholy Authority
+  - description: Vile Bastion
+    id: '37492'
+    name: Vile Bastion
+  - description: Void Beacon
+    id: '27096'
+    name: Void Beacon
+  - description: Withering Prescence
+    name: Withering Prescence
+- class: Ranger
+  passives:
+  - description: Fury of Nature
+    id: '18054'
+    name: Fury of Nature
+  - description: Avidity
+    id: '44482'
+    name: Avidity
+  - description: Endless Munitions
+    id: '26067'
+    name: Endless Munitions
+  - description: Far Shot
+    id: '45313'
+    name: Far Shot
+  - description: Focal Point
+    id: '5443'
+    name: Focal Point
+  - description: Gathering Winds
+    id: '24848'
+    name: Gathering Winds
+  - description: Occupying Force
+    id: '2872'
+    name: Occupying Force
+  - description: Ricochet
+    id: '61627'
+    name: Ricochet
+  - description: Wind Ward
+    id: '23169'
+    name: Wind Ward
+  - description: Avatar of the Wilds
+    id: '55509'
+    name: Avatar of the Wilds
+  - description: Enduring Suffusion
+    id: '40104'
+    name: Enduring Suffusion
+  - description: Experienced Herbalist
+    id: '29662'
+    name: Experienced Herbalist
+  - description: Lesson of the Seasons
+    id: '34814'
+    name: Lesson of the Seasons
+  - description: Mother's Teachings
+    id: '4849'
+    name: Mother's Teachings
+  - description: Oath of Spring
+    id: '31364'
+    name: Oath of Spring
+  - description: Oath of Summer
+    id: '33645'
+    name: Oath of Summer
+  - description: Oath of Winter
+    id: '16848'
+    name: Oath of Winter
+  - description: Seasoned Hunter
+    id: '36958'
+    name: Seasoned Hunter
+  - description: Master Alchemist
+    id: '61805'
+    name: Master Alchemist
+  - description: Master Distiller
+    id: '6038'
+    name: Master Distiller
+  - description: Master Surgeon
+    id: '63293'
+    name: Master Surgeon
+  - description: Master Toxicist
+    id: '1697'
+    name: Master Toxicist
+  - description: Nature's Adrenaline
+    id: '51101'
+    name: Nature's Adrenaline
+  - description: Nature's Boon
+    id: '65296'
+    name: Nature's Boon
+  - description: Nature's Reprisal
+    id: '40813'
+    name: Nature's Reprisal
+- class: Templar
+  passives:
+  - description: Searing Purity
+    id: '57568'
+    name: Searing Purity
+  - description: Augury of Penitence
+    id: '40059'
+    name: Augury of Penitence
+  - description: Inevitable Judgement
+    id: '48214'
+    name: Inevitable Judgement
+  - description: Instruments of Virtue
+    id: '19417'
+    name: Instruments of Virtue
+  - description: Instruments of Zeal
+    id: '13851'
+    name: Instruments of Zeal
+  - description: Pious Path
+    id: '32816'
+    name: Pious Path
+  - description: Righteous Providence
+    id: '53884'
+    name: Righteous Providence
+  - description: Sanctuary
+    id: '39790'
+    name: Sanctuary
+  - description: Arcane Blessing
+    id: '40510'
+    name: Arcane Blessing
+  - description: Conviction of Power
+    id: '25651'
+    name: Conviction of Power
+  - description: Divine Guidance
+    id: '922'
+    name: Divine Guidance
+  - description: Illuminated Devotion
+    id: '60462'
+    name: Illuminated Devotion
+  - description: Pursuit of Faith
+    id: '1105'
+    name: Pursuit of Faith
+  - description: Ritual of Awakening
+    id: '34434'
+    name: Ritual of Awakening
+  - description: Sanctuary of Thought
+    id: '29026'
+    name: Sanctuary of Thought
+  - description: Sign of Purpose
+    id: '51492'
+    name: Sign of Purpose
+  - description: Bastion of Hope
+    id: '39728'
+    name: Bastion of Hope
+  - description: Harmony of Purpose
+    id: '61372'
+    name: Harmony of Purpose
+  - description: Radiant Crusade
+    id: '4494'
+    name: Radiant Crusade
+  - description: Radiant Faith
+    id: '42264'
+    name: Radiant Faith
+  - description: Time of Need
+    id: '55146'
+    name: Time of Need
+  - description: Unwavering Crusade
+    id: '19641'
+    name: Unwavering Crusade
+  - description: Unwavering Faith
+    id: '64768'
+    name: Unwavering Faith
+- class: Scion
+  passives:
+  - description: Unleashed Potential
+    id: '19355'
+    name: Unleashed Potential
+  - description: Berserker
+    id: '29294'
+    name: Berserker
+  - description: Chieftain
+    id: '24704'
+    name: Chieftain
+  - description: Juggernaut
+    id: '17765'
+    name: Juggernaut
+  - description: Guardian
+    id: '409'
+    name: Guardian
+  - description: Hierophant
+    id: '30940'
+    name: Hierophant
+  - description: Inquisitor
+    id: '61871'
+    name: Inquisitor
+  - description: Elementalist
+    id: '16023'
+    name: Elementalist
+  - description: Necromancer
+    id: '60791'
+    name: Necromancer
+  - description: Occultist
+    id: '18378'
+    name: Occultist
+  - description: Assassin
+    id: '58229'
+    name: Assassin
+  - description: Saboteur
+    id: '18635'
+    name: Saboteur
+  - description: Trickster
+    id: '55236'
+    name: Trickster
+  - description: Deadeye
+    id: '56856'
+    name: Deadeye
+  - description: Pathfinder
+    id: '64111'
+    name: Pathfinder
+  - description: Warden
+    id: '58427'
+    name: Warden
+  - description: Champion
+    id: '24984'
+    name: Champion
+  - description: Gladiator
+    id: '32730'
+    name: Gladiator
+  - description: Slayer
+    id: '43195'
+    name: Slayer
