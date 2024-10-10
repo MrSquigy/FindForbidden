@@ -5,21 +5,25 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Find Forbidden Flame and Flesh Jewels</title>
-    </head>
-    <body>
-        <header>
-            <h1>Find Forbidden</h1>
-        </header>
-        <title>Find Forbidden Flame and Flesh Jewels</title>
         <link rel="stylesheet" href="style.css" />
         <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
-        <main>
+    </head>
+    <body>
+        <div class="content-container">
+            <header>
+                <h1>Find Forbidden</h1>
+            </header>
             <section>
                 <p>
                     Easily search <a href="https://pathofexile.com/trade">the trade site</a> for
                     <a href="https://www.poewiki.net/wiki/Forbidden_Flame">Forbidden Flame</a> and
                     <a href="https://www.poewiki.net/wiki/Forbidden_Flesh">Flesh</a> jewels.
                 </p>
+            </section>
+        </div>
+
+        <main>
+            <section>
                 <div class="form-group">
                     <label for="class-selector">Class</label>
                     <select id="class-selector" onchange="populatePassives(event)">
@@ -32,8 +36,10 @@
                     </fieldset>
                 </div>
 
-                <button type="button" onclick="openLink(event)">Open Trade Link in New Tab</button>
-                <button type="button" onclick="resetSelection(event)">Reset</button>
+                <div id="button-group">
+                    <button type="button" onclick="openLink(event)">Open Trade Link in New Tab</button>
+                    <button type="button" onclick="resetSelection(event)">Reset</button>
+                </div>
             </section>
 
             <div id="error-box"></div>

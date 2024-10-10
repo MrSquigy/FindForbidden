@@ -55,6 +55,12 @@ function calculateTradeURL() {
     };
 
     const selectedPassives = getSelectedPassives();
+
+    if (selectedPassives.length === 0) {
+        reportError("No passives selected.");
+        return;
+    }
+
     selectedPassives.forEach(passive => {
         searchQuery.query.stats[0].filters.push({
             id: flameModifierId,
@@ -118,6 +124,7 @@ function populatePassivesFieldSet(classData) {
         passiveLabel.htmlFor = passive.name;
         passiveLabel.innerText = passive.name;
         passiveLabel.title = passiveDescription;
+        passiveLabel.classList.add("passive-label");
 
         if (passive.id === undefined) {
             const disabledMessage = "Disabled because the passive skill ID is unknown";
@@ -182,7 +189,9 @@ async function populatePassives(_) {
 function openLink(_) {
     url = calculateTradeURL();
 
-    window.open(url, "_blank");
+    if (url !== undefined) {
+        window.open(url, "_blank");
+    }
 }
 
 function resetSelection(_) {

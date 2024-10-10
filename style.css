@@ -1,0 +1,133 @@
+:root {
+    --primary-bg-color: #2e4366;
+    --secondary-bg-color: #1e2e46;
+    --primary-text-color: #e0e6ed;
+    --error-text-color: #ff4d4d;
+    --button-bg-color: var(--secondary-bg-color);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    margin: 0;
+    padding: 0;
+}
+
+.content-container {
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #2e4366;
+    border-radius: 5px;
+    background-color: var(--secondary-bg-color);
+    max-width: 600px;
+}
+
+a {
+    color: var(--primary-text-color);
+}
+
+.form-group {
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #2e4366;
+    border-radius: 5px;
+    background-color: var(--secondary-bg-color);
+    max-width: 600px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--primary-text-color);
+}
+
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #2e4366;
+    border-radius: 4px;
+    background-color: #2e4366;
+    color: var(--primary-text-color);
+}
+
+.form-group fieldset {
+    border: 1px solid #2e4366;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #2e4366;
+    min-height: 590px;
+}
+
+.form-group fieldset legend {
+    font-weight: bold;
+    padding: 0 10px;
+    color: var(--primary-text-color);
+}
+
+.form-group fieldset input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.form-group fieldset label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: var(--primary-text-color);
+}
+
+#error-box {
+    color: var(--error-text-color);
+    font-weight: bold;
+    margin: 10px auto 0;
+    text-align: center;
+}
+
+#button-group {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#button-group button {
+    background-color: var(--button-bg-color);
+    color: var(--primary-text-color);
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#button-group button:hover {
+    background-color: #3f5c7a;
+}
+
+.passive-label {
+    position: relative;
+}
+
+.passive-label::after {
+    min-width: 400px;
+    content: attr(title);
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    background-color: var(--secondary-bg-color);
+    color: var(--primary-text-color);
+    padding: 5px;
+    border-radius: 5px;
+    white-space: normal;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s;
+    z-index: 1;
+}
+
+.passive-label:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
